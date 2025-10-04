@@ -4,8 +4,8 @@
     "name": "The Study Nook",
     "location": "Quezon City",
     "price": 300,
-    "main_image": "Public/assets/Nook/nook.jpg",
-    "images": ["Public/assets/Nook/nook1.jpg", "Public/assets/Nook/nook2.jpg"],
+    "main_image": "/assets/Nook/nook.jpg",
+    "images": ["/assets/Nook/nook1.jpg", "/assets/Nook/nook2.jpg"],
     "description": "A quiet and cozy space perfect for deep focus sessions. Equipped with soundproof pods and an extensive library for a productive day.",
     "amenities": [
       "High-speed Wi-Fi",
@@ -22,7 +22,7 @@
     "name": "WorkHaven Makati",
     "location": "Makati City",
     "price": 500,
-    "main_image": "Public/assets/workhaven/WH.jpg",
+    "main_image": "/assets/workhaven/WH.jpg",
     "images": ["/assets/workhaven/WH1.jpg", "/assets/workhaven/WH2.jpeg"],
     "description": "A professional co-working environment in the heart of the business district. Ideal for meetings, collaborations, and networking.",
     "amenities": [
@@ -76,7 +76,7 @@
     "name": "Davao Study Loft",
     "location": "Davao City",
     "price": 280,
-    "main_image": "Public/assets/SL/sl.jpg",
+    "main_image": "/assets/SL/sl.jpg",
     "images": ["/assets/SL/SL1.jpg", "/assets/mindspace/MS2.avif"],
     "description": "A cozy loft-style study space overlooking Davao's skyline. Perfect for late-night study sessions.",
     "amenities": [

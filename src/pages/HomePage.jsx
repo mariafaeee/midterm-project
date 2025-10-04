@@ -19,7 +19,7 @@ export const HomePage = () => {
         {/* Background Image */}
         <div className="relative h-[400px] w-full">
           <img
-            src="public/assets/Header.jpg"
+            src="/assets/Header.jpg"
             className="w-full h-full object-cover"
             alt="Header"
           />
