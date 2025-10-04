@@ -52,7 +52,7 @@ export const HomePage = () => {
         </div>
       </div>
 
-      {/* ===== Study Space Cards ===== */}
+      {/*Study Space Cards*/}
       <div className="px-8 md:px-20 py-16">
         <h2 className="text-3xl font-semibold text-gray-800 mb-10">
           Available Study Spots
@@ -74,10 +74,12 @@ export const HomePage = () => {
                   {space.name}
                 </h3>
                 <p className="text-gray-500 text-sm">{space.location}</p>
-                <p className="mt-3 text-black font-semibold">
-                  ₱{space.price} / day
-                </p>
+                <p className="mt-3 text-black font-semibold">₱{space.price}</p>
 
+                <p className="mt-3 text-gray-700">
+                  <span className="font-medium">Opening Hours:</span>{" "}
+                  {space.hours}
+                </p>
                 <Link
                   to={`/space/${space.id}`}
                   className="mt-4 inline-block bg-black text-white px-4 py-2 rounded-lg font-medium hover:bg-gray-800 transition"
@@ -87,6 +89,12 @@ export const HomePage = () => {
               </div>
             </div>
           ))}
+
+          {filteredSpaces.length === 0 && (
+            <p className="col-span-full text-center text-gray-500">
+              No study spaces found.
+            </p>
+          )}
         </div>
       </div>
     </div>

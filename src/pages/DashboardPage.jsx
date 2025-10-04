@@ -6,6 +6,9 @@ export const DashboardPage = () => {
   const { bookings, cancelBooking } = useContext(AppContext);
   const [confirmId, setConfirmId] = useState(null);
 
+  //  Helper to normalize image paths
+  const fixPath = (path) => (path.startsWith("/") ? path : `/${path}`);
+
   return (
     <div className="bg-gray-50 min-h-screen px-8 md:px-20 py-16">
       {/* Header */}
@@ -28,9 +31,9 @@ export const DashboardPage = () => {
               key={b.id}
               className="bg-white rounded-2xl shadow hover:shadow-xl transition overflow-hidden flex flex-col justify-between"
             >
-              {/* Space Thumbnail */}
+              {/* Space Thumbnail ( fixed) */}
               <img
-                src={b.space.main_image}
+                src={fixPath(b.space.main_image)}
                 alt={b.space.name}
                 className="w-full h-40 object-cover"
               />
@@ -51,7 +54,7 @@ export const DashboardPage = () => {
                 {/* Cancel Button */}
                 <button
                   onClick={() => setConfirmId(b.id)}
-                  className="mt-6 bg-red-600 text-white px-4 py-2 rounded-lg font-medium hover:bg-red-700 transition self-start"
+                  className="mt-6 bg-[#E50046] text-white px-4 py-2 rounded-lg font-medium hover:bg-[#b40036] transition self-start"
                 >
                   Cancel Booking
                 </button>
@@ -77,7 +80,7 @@ export const DashboardPage = () => {
                   cancelBooking(confirmId);
                   setConfirmId(null);
                 }}
-                className="bg-red-600 text-white px-5 py-2 rounded-lg hover:bg-red-700 transition"
+                className="bg-[#E50046] text-white px-5 py-2 rounded-lg hover:bg-red-700 transition"
               >
                 Confirm
               </button>

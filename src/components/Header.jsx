@@ -15,7 +15,7 @@ export const Header = () => {
      after:transition-all after:duration-300 hover:after:w-full`;
 
   return (
-    <header className="bg-[#D2C1B6] text-gray-800 px-6 py-4 flex justify-between items-center shadow-md sticky top-0 z-50">
+    <header className="bg-[#F9F5F0] text-gray-800 px-6 py-4 flex justify-between items-center shadow-md sticky top-0 z-50">
       <Link
         to="/"
         className="font-bold text-2xl tracking-wide hover:scale-105 transition-transform"

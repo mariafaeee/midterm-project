@@ -5,7 +5,7 @@ import { AppContext } from "../context/AppContext";
 
 export const LoginPage = () => {
   const [name, setName] = useState("");
-  const { login, setPopup } = useContext(AppContext); // ✅ include setPopup
+  const { login, setPopup } = useContext(AppContext); // include setPopup
   const navigate = useNavigate();
 
   const handleLogin = (e) => {
@@ -13,10 +13,10 @@ export const LoginPage = () => {
 
     login({ name });
 
-    // ✅ Trigger welcome popup
+    // Trigger welcome popup
     setPopup({
       type: "success",
-      message: `Hi ${name}, welcome to StudySpot PH 👋`,
+      message: `Hi ${name}, welcome to StudySpot PH `,
     });
 
     navigate("/dashboard/my-bookings");

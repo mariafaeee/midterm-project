@@ -23,7 +23,7 @@
     "location": "Makati City",
     "price": 500,
     "main_image": "Public/assets/workhaven/WH.jpg",
-    "images": ["/assets/space2_a.jpg", "/assets/space2_b.jpg"],
+    "images": ["/assets/workhaven/WH1.jpg", "/assets/workhaven/WH2.jpeg"],
     "description": "A professional co-working environment in the heart of the business district. Ideal for meetings, collaborations, and networking.",
     "amenities": [
       "Fiber Internet",
@@ -33,15 +33,15 @@
       "Ergonomic Chairs"
     ],
     "hours": "Open 24/7",
-    "time_slots": ["Full Day Pass", "Night Owl Pass (9pm-6am)"]
+    "time_slots": ["Full Day Pass (6am-9pm)", "Night Owl Pass (9pm-6am)"]
   },
   {
     "id": 3,
     "name": "Cebu Creative Hub",
     "location": "Cebu City",
     "price": 250,
-    "main_image": "Public/assets/creative/cc.jpg",
-    "images": ["Public/assets/creative/cc1.jpg", "Public/assets/creative/cc2.jpg"],
+    "main_image": "/assets/creative/cc.jpg",
+    "images": ["/assets/creative/cc1.jpg", "/assets/creative/cc2.jpg"],
     "description": "A vibrant and artistic space designed to foster creativity and collaboration among Cebu's digital nomads and artists.",
     "amenities": [
       "Community Events",
@@ -58,8 +58,8 @@
     "name": "Manila MindSpace",
     "location": "Manila City",
     "price": 400,
-    "main_image": "Public/assets/mindspace/MS.png",
-    "images": ["/assets/space4_a.jpg"],
+    "main_image": "/assets/mindspace/MS.png",
+    "images": ["/assets/mindspace/MS1.avif", "/assets/mindspace/MS2.avif"],
     "description": "Modern study lounge with individual cubicles and group discussion rooms. Designed for students and professionals alike.",
     "amenities": [
       "Fast Wi-Fi",
@@ -77,7 +77,7 @@
     "location": "Davao City",
     "price": 280,
     "main_image": "Public/assets/SL/sl.jpg",
-    "images": [],
+    "images": ["/assets/SL/SL1.jpg", "/assets/mindspace/MS2.avif"],
     "description": "A cozy loft-style study space overlooking Davao's skyline. Perfect for late-night study sessions.",
     "amenities": [
       "High-speed Wi-Fi",
@@ -87,15 +87,15 @@
       "Open 24 Hours"
     ],
     "hours": "Open 24/7",
-    "time_slots": ["Morning", "Afternoon", "Evening", "Overnight"]
+    "time_slots": ["Morning (8am-11am)", "Afternoon (12pm-5pm)", "Evening (6pm-10pm)", "Overnight"]
   },
   {
     "id": 6,
     "name": "Baguio Study Retreat",
     "location": "Baguio City",
     "price": 350,
-    "main_image": "/assets/space-6.jpg",
-    "images": ["/assets/space6_a.jpg", "/assets/space6_b.jpg"],
+    "main_image": "/assets/baguio SR/BS.webp",
+    "images": ["/assets/baguio SR/BS1.webp", "/assets/baguio SR/BS2.jpg"],
     "description": "A refreshing mountain-view workspace with natural lighting and fresh cool air, inspiring productivity.",
     "amenities": [
       "Mountain View",
@@ -112,8 +112,8 @@
     "name": "Iloilo Work & Study Café",
     "location": "Iloilo City",
     "price": 200,
-    "main_image": "/assets/space-7.jpg",
-    "images": [],
+    "main_image": "/assets/iloilo/II.jpg",
+    "images": ["/assets/iloilo/II1.gif", "/assets/iloilo/II2.jpg"],
     "description": "A budget-friendly café with unlimited coffee refills, perfect for freelancers and students on a budget.",
     "amenities": [
       "Unlimited Coffee",
@@ -123,15 +123,15 @@
       "Outdoor Patio"
     ],
     "hours": "7:00 AM - 11:00 PM",
-    "time_slots": ["Morning", "Afternoon", "Evening"]
+    "time_slots": ["Morning (7:30am-11am)", "Afternoon (12pm-5pm)", "Evening (6pm-10:30pm)"]
   },
   {
     "id": 8,
     "name": "Ortigas Study Hall",
     "location": "Ortigas Center",
     "price": 450,
-    "main_image": "/assets/space-8.jpg",
-    "images": ["/assets/space8_a.jpg"],
+    "main_image": "/assets/ortigas/SH.jpg",
+    "images": ["/assets/ortigas/SH2.jpg", "/assets/ortigas/SH1.jpg"],
     "description": "A premium study and co-working hub located in Ortigas, with seminar rooms and collaborative workspaces.",
     "amenities": [
       "Conference Rooms",
@@ -148,8 +148,8 @@
     "name": "Subic Bay Study Pods",
     "location": "Subic Bay",
     "price": 320,
-    "main_image": "/assets/space-9.jpg",
-    "images": [],
+    "main_image": "/assets/subic/SBS.jpg",
+    "images": ["/assets/subic/SBS1.jpg", "/assets/subic/SBS2.jpg"],
     "description": "Quiet pods with a seaside view, perfect for deep concentration and stress-free studying.",
     "amenities": [
       "Seaside View",
@@ -166,8 +166,8 @@
     "name": "Taguig ThinkTank",
     "location": "Taguig City",
     "price": 600,
-    "main_image": "/assets/space-10.jpg",
-    "images": ["/assets/space10_a.jpg", "/assets/space10_b.jpg"],
+    "main_image": "/assets/taguig/TT.jpg",
+    "images": ["/assets/taguig/TT1.jpg", "/assets/taguig/.jpg"],
     "description": "A high-end co-working and study hub for entrepreneurs, researchers, and students. Equipped with the latest tech tools.",
     "amenities": [
       "High-speed Wi-Fi",
@@ -177,6 +177,6 @@
       "On-site Café"
     ],
     "hours": "Open 24/7",
-    "time_slots": ["Full Day Pass", "Half Day Pass", "Night Access"]
+    "time_slots": ["Full Day Pass (8am-12am)", "Half Day Pass (8am-5pm)", "Night Access (6pm-12am)"]
   }
 ]
