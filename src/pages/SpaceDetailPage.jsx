@@ -1,7 +1,7 @@
 // src/pages/SpaceDetailPage.jsx
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import studySpaces from "../data/Spaces.json";
+import studySpaces from "../data/spaces.json";
 import { BookingForm } from "../components/BookingForm";
 
 export const SpaceDetailPage = () => {
