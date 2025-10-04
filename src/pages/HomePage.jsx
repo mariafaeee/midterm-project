@@ -1,7 +1,7 @@
 // src/pages/HomePage.jsx
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import studySpaces from "../data/Spaces.json";
+import studySpaces from "../data/spaces.json";
 
 export const HomePage = () => {
   const [search, setSearch] = useState("");
